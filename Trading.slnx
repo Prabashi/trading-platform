@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/Trading.Contracts/Trading.Contracts.csproj" />
+    <Project Path="src/BuildingBlocks/Trading.Messaging/Trading.Messaging.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/">
+    <Project Path="src/Services/Execution/Execution.csproj" />
+    <Project Path="src/Services/OrderGateway/OrderGateway.csproj" />
+    <Project Path="src/Services/Risk/Risk.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OrderGateway.UnitTests/OrderGateway.UnitTests.csproj" />
+    <Project Path="tests/Risk.UnitTests/Risk.UnitTests.csproj" />
+    <Project Path="tests/Trading.Contracts.Tests/Trading.Contracts.Tests.csproj" />
+    <Project Path="tests/Trading.IntegrationTests/Trading.IntegrationTests.csproj" />
+  </Folder>
+</Solution>
